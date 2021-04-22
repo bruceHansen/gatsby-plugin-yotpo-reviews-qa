@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-yotpo-reviews-qa",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Source plugin for yotpo with shopify products",
   "main": "index.js",
   "scripts": {
