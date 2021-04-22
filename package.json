@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-yotpo-shopify",
+  "name": "gatsby-plugin-yotpo-reviews-qa",
   "version": "0.1.6",
   "description": "Source plugin for yotpo with shopify products",
   "main": "index.js",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ginlane/gatsby-source-yotpo-shopify.git"
+    "url": "git+https://github.com/bruceHansen/gatsby-plugin-yotpo-reviews-qa"
   },
   "bugs": {
-    "url": "https://github.com/ginlane/gatsby-source-yotpo-shopify/issues"
+    "url": "https://github.com/bruceHansen/gatsby-plugin-yotpo-reviews-qa/issues"
   },
-  "homepage": "https://github.com/ginlane/gatsby-source-yotpo-shopify#readme"
+  "homepage": "https://github.com/bruceHansen/gatsby-plugin-yotpo-reviews-qa#readme"
 }

@@ -1,4 +1,4 @@
-# gatsby-source-yotpo-shopify
+# gatsby-plugin-yotpo-reviews-qa
 
 This source plugin allows you to access your Yotpo reviews and ratings, and questions and answers through Gatsby's GraphQL queries. It first connects to a shopify storefront API to get all products. It uses the individual [product review endpoint](https://apidocs.yotpo.com/reference#retrieve-reviews-for-a-product) to query for each review. It then uses the [product Q&A endpoint](https://apidocs.yotpo.com/reference#retrieve-questions-and-answers-for-a-product) to query for each question along with its answers. Finally the `YotpoProduct` Node gets added so it can be queried in gatsby.
 
@@ -7,7 +7,7 @@ This source plugin caters for a specific use case where reviews are set as both 
 ## Usage
 
 ```
-yarn add gatsby-source-yotpo-shopify
+yarn add gatsby-plugin-yotpo-reviews-qa
 ```
 
 Add the plugin to your `gatsby-config.js`
@@ -20,7 +20,7 @@ The storefront token should have the following permissions:
 ```
   plugins: [
     {
-      resolve: 'gatsby-source-yotpo-shopify',
+      resolve: 'gatsby-plugin-yotpo-reviews-qa',
       options: {
       shopName: SHOPIFY_STORE_NAME,
       shopifyAccessToken: SHOPIFY_ACCESS_TOKEN,

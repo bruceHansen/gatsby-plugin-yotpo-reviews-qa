@@ -1,7 +1,7 @@
 import chalk from "chalk";
 
 export const formatMsg = (msg) =>
-  chalk`\n{blue gatsby-source-yotpo-shopify} ${msg}`;
+  chalk`\n{blue gatsby-plugin-yotpo-reviews-qa} ${msg}`;
 
 export const decodeShopifyId = (base64Id) => {
   const shopifyId = Buffer.from(base64Id, "base64").toString("binary");
